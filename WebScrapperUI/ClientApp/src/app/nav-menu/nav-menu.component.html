@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand mx-auto text-uppercase" [routerLink]="['/']">InfoTrack SEO</a>
+    </nav>
+    <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+      <div class="position-sticky">
+        <ul class="nav flex-column">
+          <li
+            class="nav-item"
+            [routerLinkActive]="['link-active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link text-light" [routerLink]="['/']">Dashboard</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-light" [routerLink]="['/search-history']"
+              >Logs</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

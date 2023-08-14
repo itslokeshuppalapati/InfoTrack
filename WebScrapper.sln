@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper.Data", "WebScrapper.Data\WebScrapper.Data.csproj", "{14F2AEE9-E200-4BAF-A286-320CE3A0AC58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper.API", "WebScrapper.API\WebScrapper.API.csproj", "{B233F56B-2717-440A-9719-478849E9D42C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper.Core", "WebScrapper.Core\WebScrapper.Core.csproj", "{FFB7A2A5-A325-4073-93DC-2F7D7A8AAE67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper.Application", "WebScrapper.Application\WebScrapper.Application.csproj", "{31204375-31D4-42A4-90A9-D4E51A04DC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{605254CF-CFB2-4DB4-9A0C-CFBB5B4F361C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EDC4B4C7-FD72-4817-A713-857E83D951D8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ClientApp", "WebScrapperUI\ClientApp\", "{F415FBDD-F9B1-401D-9FF4-389C1A8B76D6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53567"
+		Debug.AspNetCompiler.PhysicalPath = "WebScrapperUI\ClientApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53567\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53567"
+		Release.AspNetCompiler.PhysicalPath = "WebScrapperUI\ClientApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53567\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53567"
+		SlnRelativePath = "WebScrapperUI\ClientApp\"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper.Tests", "WebScrapper.Tests\WebScrapper.Tests.csproj", "{190C9E4A-9BA1-4AD7-802A-278E7A2148A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F2AEE9-E200-4BAF-A286-320CE3A0AC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F2AEE9-E200-4BAF-A286-320CE3A0AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F2AEE9-E200-4BAF-A286-320CE3A0AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F2AEE9-E200-4BAF-A286-320CE3A0AC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B233F56B-2717-440A-9719-478849E9D42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B233F56B-2717-440A-9719-478849E9D42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B233F56B-2717-440A-9719-478849E9D42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B233F56B-2717-440A-9719-478849E9D42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB7A2A5-A325-4073-93DC-2F7D7A8AAE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB7A2A5-A325-4073-93DC-2F7D7A8AAE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB7A2A5-A325-4073-93DC-2F7D7A8AAE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB7A2A5-A325-4073-93DC-2F7D7A8AAE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31204375-31D4-42A4-90A9-D4E51A04DC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31204375-31D4-42A4-90A9-D4E51A04DC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31204375-31D4-42A4-90A9-D4E51A04DC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31204375-31D4-42A4-90A9-D4E51A04DC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F415FBDD-F9B1-401D-9FF4-389C1A8B76D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F415FBDD-F9B1-401D-9FF4-389C1A8B76D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F415FBDD-F9B1-401D-9FF4-389C1A8B76D6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F415FBDD-F9B1-401D-9FF4-389C1A8B76D6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{190C9E4A-9BA1-4AD7-802A-278E7A2148A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190C9E4A-9BA1-4AD7-802A-278E7A2148A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190C9E4A-9BA1-4AD7-802A-278E7A2148A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190C9E4A-9BA1-4AD7-802A-278E7A2148A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14F2AEE9-E200-4BAF-A286-320CE3A0AC58} = {605254CF-CFB2-4DB4-9A0C-CFBB5B4F361C}
+		{B233F56B-2717-440A-9719-478849E9D42C} = {605254CF-CFB2-4DB4-9A0C-CFBB5B4F361C}
+		{FFB7A2A5-A325-4073-93DC-2F7D7A8AAE67} = {605254CF-CFB2-4DB4-9A0C-CFBB5B4F361C}
+		{31204375-31D4-42A4-90A9-D4E51A04DC4A} = {605254CF-CFB2-4DB4-9A0C-CFBB5B4F361C}
+		{F415FBDD-F9B1-401D-9FF4-389C1A8B76D6} = {605254CF-CFB2-4DB4-9A0C-CFBB5B4F361C}
+		{190C9E4A-9BA1-4AD7-802A-278E7A2148A6} = {EDC4B4C7-FD72-4817-A713-857E83D951D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {976C62DE-F133-4480-A365-EE45FC4CF741}
+	EndGlobalSection
+EndGlobal
